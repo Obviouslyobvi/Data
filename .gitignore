@@ -1,0 +1,26 @@
+# Credential guards - do not remove
+.env
+.env.*
+*.pem
+*.key
+*.ppk
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*.p12
+*.pfx
+credentials*
+*secret*
+*token*
+.claude.json
+.claude/
+.ssh/
+.aws/
+.config/
+service-account*.json
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
